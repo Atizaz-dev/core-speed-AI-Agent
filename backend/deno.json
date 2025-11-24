@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@corespeed/zypher": "jsr:@corespeed/zypher@^0.5.1",
+    "@std/assert": "jsr:@std/assert@1",
+    "rxjs-for-await": "npm:rxjs-for-await@^1.0.0",
+    "xstate": "npm:xstate@^5.22.0",
+    "@modelcontextprotocol/sdk": "npm:@modelcontextprotocol/sdk@^1.18.1"
+  },
+  "nodeModulesDir": "auto"
+}
